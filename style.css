@@ -1,0 +1,50 @@
+.unu {
+	color:	blue;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	border: 2px solid black;
+	width: 50%;
+	height: 50px;
+}
+
+.unu:hover{
+	color: red;
+}
+
+.unu::before {
+	content: 'unu';
+	color: aqua;
+}
+
+.unu:hover::before {
+	color: black;
+}
+
+.unu::after {
+	content: 'doi';
+	color: brown;
+}
+
+:first-child {
+	font-size: 30px;
+}
+
+#doi	{
+	color: red;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 34px;
+	border: 4px dotted blueviolet;
+	width: 30%;
+	height: 30%;
+}
+div {
+	margin: 50px 10px;
+	padding: 5px;
+}
+
+p:hover {
+	color: darkorange;
+}
+
